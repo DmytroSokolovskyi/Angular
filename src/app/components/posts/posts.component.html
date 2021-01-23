@@ -1,0 +1,8 @@
+<h3>
+  {{chosePost?.id}}
+  {{chosePost?.title}}
+</h3>
+<hr>
+<hr>
+<hr>
+<app-post *ngFor="let post of posts" [post]="post" (upPost)="getUpPost($event)"></app-post>
