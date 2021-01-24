@@ -8,6 +8,7 @@ import { CarsComponent } from './cars/cars.component';
 import { CarComponent } from './car/car.component';
 import { LedysComponent } from './ledys/ledys.component';
 import { LadyComponent } from './lady/lady.component';
+import { DriverComponent } from './driver/driver.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LadyComponent } from './lady/lady.component';
     CarsComponent,
     CarComponent,
     LedysComponent,
-    LadyComponent
+    LadyComponent,
+    DriverComponent
   ],
   imports: [
     BrowserModule

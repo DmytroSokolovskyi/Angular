@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {cars} from '../../db/cars';
+import {ICar} from '../interface';
 
 @Component({
   selector: 'app-cars',
@@ -8,8 +9,10 @@ import {cars} from '../../db/cars';
 })
 export class CarsComponent implements OnInit {
 
-  cars = cars;
-  constructor() { }
+  cars: ICar[] = cars;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
