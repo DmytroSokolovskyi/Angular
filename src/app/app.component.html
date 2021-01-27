@@ -1,5 +1,7 @@
-{{title}}
-<app-cars></app-cars> <hr>
-<app-driver></app-driver> <hr>
-<app-ledys></app-ledys> <hr>
-<app-users></app-users> <hr>
+<ul>
+  <li><a [routerLink]="['users']">users</a></li>
+  <li><a [routerLink]="['posts']">posts</a></li>
+</ul>
+
+
+<router-outlet></router-outlet>
